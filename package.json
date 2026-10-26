@@ -1,0 +1,21 @@
+{
+  "name": "influenceract-landing-page",
+  "version": "1.0.0",
+  "private": true,
+  "description": "InfluencerAct marketing landing page built with HTML, CSS, and JavaScript.",
+  "type": "module",
+  "engines": {
+    "node": ">=22.12.0"
+  },
+  "scripts": {
+    "dev": "vite --host 127.0.0.1",
+    "build": "vite build",
+    "preview": "vite preview --host 127.0.0.1",
+    "format": "prettier --write .",
+    "format:check": "prettier --check ."
+  },
+  "devDependencies": {
+    "prettier": "^3.6.2",
+    "vite": "^8.3.5"
+  }
+}
